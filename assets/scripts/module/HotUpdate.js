@@ -5,9 +5,9 @@ var UpdatePanel = require('../UI/UpdatePanel');
 // 2. res/raw-assets/2d/2d86a854-63c4-4b90-8b88-a4328b8526c2.png
 // So when custom manifest used, you should be able to find them in downloaded remote assets
 var customManifestStr = JSON.stringify({
-    "packageUrl": "http://192.168.50.220:5555/tutorial-hot-update/remote-assets/",
-    "remoteManifestUrl": "http://192.168.50.220:5555/tutorial-hot-update/remote-assets/project.manifest",
-    "remoteVersionUrl": "http://192.168.50.220:5555/tutorial-hot-update/remote-assets/version.manifest",
+    "packageUrl": "http://127.0.0.1:5502/remote-assets/",
+    "remoteManifestUrl": "http://127.0.0.1:5502/remote-assets/project.manifest",
+    "remoteVersionUrl": "http://127.0.0.1:5502/remote-assets/version.manifest",
     "version": "1.10",
     "assets": {
         "src/cocos2d-jsb.js": {

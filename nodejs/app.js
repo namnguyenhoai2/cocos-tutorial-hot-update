@@ -2,4 +2,4 @@ var express = require('express');
 var path = require('path');
 var app = express();
 app.use(express.static(path.join(__dirname, 'hotUpdate')));
-app.listen(8081);
+app.listen(5502);
